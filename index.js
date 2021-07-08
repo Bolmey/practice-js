@@ -1,3 +1,6 @@
 //Arrow Function
 
-const calcAge3 = birthYear => 2037 - birthYear
+function fruitProcessor(apples, oranges) {
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
